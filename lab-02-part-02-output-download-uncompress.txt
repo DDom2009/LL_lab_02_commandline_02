@@ -164,7 +164,7 @@ unzip mtec1002-lab-02.zip
 
 Copy and paste the output below.
 ----------
-
+books  logs  web
 
 
 ==========
@@ -175,7 +175,7 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
-
+__MACOSX  desktop  google.html  mtec1002-lab-02  mtec1002-lab-02.zip  stuff
 
 
 ==========
@@ -188,7 +188,7 @@ List the files in the directory you're currently in (which should be stuff).
 Copy and paste the output below.
 ----------
 
-
+hello.txt
 
 ==========
 18. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
@@ -200,7 +200,7 @@ List the files in the directory you're currently in (which should be home).
 Copy and paste the output below.
 ----------
 
-
+__MACOSX  desktop  google.html  mtec1002-lab-02  mtec1002-lab-02.zip  stuff  stuff.tar
 
 ==========
 19. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
@@ -209,7 +209,8 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
+stuff/
+stuff/hello.txt
 
 
 ==========
@@ -218,7 +219,7 @@ Copy and paste the output below.
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
 
-
+__MACOSX  desktop  google.html  mtec1002-lab-02  mtec1002-lab-02.zip  stuff  stuff.tar
 
 ==========
 21. Now compress it!  Type:
@@ -228,7 +229,7 @@ gzip stuff.tar
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
 
-
+__MACOSX  desktop  google.html  mtec1002-lab-02  mtec1002-lab-02.zip  stuff  stuff.tar.gz
 
 ==========
 22. Move stuff.tar.gz into the lab directory that we downloaded.  We didn't learn this command yet, so just type in exactly as is:
@@ -241,7 +242,7 @@ Change your directory to mtec1002-lab-02.
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 ----------
-
+books  logs  stuff.tar.gz  web
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
@@ -252,6 +253,6 @@ List the files.  Copy and paste the output below (the folder, stuff, should be t
 ----------
 
 
-
+books  logs  stuff  stuff.tar.gz  web
 
 
